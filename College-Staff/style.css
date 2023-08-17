@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+*{
+	padding:0;	
+	margin:0;
+	text-decoration: none;
+}
+
+body{
+	padding: 0% 3% 0% 3%;
+	font-family: 'Roboto', sans-serif;
+	color: #444444;
+
+}
+
+.header{
+	text-align: center;
+}
+.header h1{
+	margin-top: 5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.header p{
+
+}
+
+a{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+.container{
+	text-align: center;
+	margin: 30px;
+}
+.card1{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(116,183,204,1) 0%, rgba(27,151,171,1) 79%);
+	display: inline-block;
+}
+.card2{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(204,139,116,1) 0%, rgba(255,125,80,1) 56%);
+	display: inline-block;
+}
+.card3{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(204,116,190,1) 0%, rgba(255,80,148,1) 79%);
+	display: inline-block;
+}
+.card4{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(204,199,116,1) 0%, rgba(255,250,80,1) 79%);
+	display: inline-block;
+}
+.card5{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(116,204,170,1) 0%, rgba(34,254,56,1) 79%);
+	display: inline-block;
+}
+.card6{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(157,116,204,1) 0%, rgba(107,34,254,1) 79%);
+	display: inline-block;
+}
+.card7{
+	margin: 5px;
+	width: 150px;
+	padding: 50px;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(116,204,173,1) 0%, rgba(27,171,123,1) 79%);
+	display: inline-block;
+}
+.footer{
+	margin-top: 15px; 
+	text-align: center;
+}
+
+.heading{
+	text-align: left;
+	padding: 10px 10px 10px 0px;
+	color: #00a6c1;
+}
+
+.registration input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.tab1{
+	margin-top: 10px;
+	border: 1px solid black;
+	padding: 5px 0px 5px 0px;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.tab1 th{
+	border: 1px solid #cbcbcb;
+	border-collapse: collapse;
+	padding: 5px 5px 5px 5px;
+}
+
+.tab1 input{
+	padding: 4px;
+	border: 1px solid #adadad;
+}
+.tab1 textarea{
+	padding: 7px;
+	border: 1px solid #adadad;
+}
+.tab1 select{
+	padding: 4px;
+	border: 1px solid #adadad;
+}
+
+.tab1 td{
+	border: 1px solid #cbcbcb;
+	border-collapse: collapse;
+	padding: 5px 5px 5px 5px;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.scbtn{
+	background: #0d9e31;
+	color: white;
+	border: none;
+	width: 100px;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 5px;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+}
+
+.addbtn{
+	background: #0062fc;
+	color: white;
+	border: none;
+	width: 100px;
+	padding: 10px 15px 10px 15px;
+	font-size: 15px;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 5px;
+	text-shadow: 2px 2px 5px black;
+}
+
+.rmvbtn{
+	background: #ff382a;
+	color: white;
+	border: none;
+	width: 100px;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 5px;
+	text-shadow: 2px 2px 5px black;
+}
+.wrnbtn{
+	background: #EEA100;
+	color: white;
+	border: none;
+	width: 100px;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 5px;
+	text-shadow: 2px 2px 5px black;
+}
+
+.tab1 input[type=button],[type=reset],[type=submit],[type=file]{
+	cursor: pointer;
+}
+
+.set{
+	border-left: 10px solid #001FF7;
+}
+
+.info{
+	color: red;
+	font-size: 8px;
+}
+
+
+.select_field{
+	padding: 50px;
+}
+
+.navbar {
+		  overflow: hidden;
+		  background: linear-gradient(90deg, #75BAFF 0%, #006FDF 79%);
+		  border-radius: 5px;
+		}
+
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  text-shadow: none;
+		}
+
+		.dropdown {
+		  float: right;
+		  overflow: hidden;
+		}
+
+		.dropdown .dropbtn {
+		  font-size: 16px;  
+		  border: none;
+		  outline: none;
+		  color: white;
+		  padding: 14px 16px;
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		  text-shadow: none;
+		}
+
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		  background-color: #61B0FF;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 140px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover {
+		  background-color: #61B0FF;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		.footer{
+			background-color: #E3E3E3;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		.footer a{
+			color: black;
+			text-shadow: none;
+		}
+		.nav-active{
+			background-color: #006FDF;
+		}
